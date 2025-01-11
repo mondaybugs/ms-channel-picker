@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.channelList {
+  display: grid;
+  grid-template-columns: repeat(10, 5rem);
+  border: 3px white solid;
+}
+
+.channel {
+  background-color: #8174A0;
+  border: 1px solid darkgray;
+  height: 100px;
+}
+
+.finePrint {
+  font-size: 12px;
+  text-align: left;
+}
+
+.footer {
+  margin-top: 10rem;
+}
+
+.number {
+  border-bottom: 2px solid darkgray;
+  background-color: #441752;
+}
